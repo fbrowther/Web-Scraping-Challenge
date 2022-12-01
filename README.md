@@ -1,82 +1,34 @@
 # Web-Scraping-Challenge
-Required to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask
+
+For this project,  it was required to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask. 
+
+## Part1: Web Scraping 
+
+The HTML pages of the webpages that needed scraping were inspected to gather information write the necessary codes. Scraping was carried out using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+
+### (1) NASA Mars News Feed
+
+For the NASA Mars News feed "https://mars.nasa.gov/news/" was set up to be visited and the latest News Title and Paragraph Text was scraped. This information was assigned a variable name to refer to later. 
+
+### (2) Featured Space Image of Mars
+
+The URL for the Featured Space Image site "https://spaceimages-mars.com/" was visited and the image URL to the full-sized .jpg image was identified.
+The image URL for (the curren Featured) Mars Image was built before assigning it to the URL string of a variable called featured_image_url. 
+
+### (3) Mars Facts
+
+In order to obtain the facts about Mars "https://galaxyfacts-mars.com/" was visited and the table containing facts about the red planet including diameter, mass, moon, temperature etc were scraped using pandas. The table was then converted to a HTML table string.
+
+### (4) Mars Hemispheres
+
+Mars astrogeology site ("https://marshemispheres.com/") was visited to obtain high-resolution images for each hemispheres of Mars. Image URL string for the full resolution hemisphere image and the hemisphere title containing the hemisphere name was created for each hemisphere and a Python dictionary was created to store the data using the keys img_url and title.
+
 
 ![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Deployed%20Webscraping%20App%20Page.png)
 
-Part  1: Scraping
-Complete your initial scraping using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
-Create a Jupyter Notebook file called mission_to_mars.ipynb. Use this file to complete all your scraping and analysis tasks. The following information outlines what you need to scrape.
-
-
-NASA Mars News
-
-Scrape the Mars News Site and collect the latest News Title and Paragraph Text. Assign the text to variables that you can reference later.
-
-
-# Example:
-news_title = "NASA's Next Mars Mission to Investigate Interior of Red Planet"
-
-news_p = "Preparation of NASA's next spacecraft to Mars, InSight, has ramped up this summer, on course for launch next May from Vandenberg Air Force Base in central California -- the first interplanetary launch in history from America's West Coast."
-
-
-
-JPL Mars Space Images—Featured Image
-
-
-Visit the URL for the Featured Space Image site here.
-
-
-Use Splinter to navigate the site and find the image URL for the current Featured Mars Image, then assign the URL string to a variable called featured_image_url.
-
-
-Be sure to find the image URL to the full-sized .jpg image.
-
-
-Be sure to save a complete URL string for this image.
-
-
-
-# Example:
-featured_image_url = 'https://spaceimages-mars.com/image/featured/mars2.jpg'
-
-
-
-Mars Facts
-
-
-Visit the Mars Facts webpage and use Pandas to scrape the table containing facts about the planet including diameter, mass, etc.
-
-
-Use Pandas to convert the data to a HTML table string.
-
-
-
-Mars Hemispheres
-
-
-Visit the astrogeology site to obtain high-resolution images for each hemisphere of Mars.
-
-
-You will need to click each of the links to the hemispheres in order to find the image URL to the full-resolution image.
-
-
-Save the image URL string for the full resolution hemisphere image and the hemisphere title containing the hemisphere name. Use a Python dictionary to store the data using the keys img_url and title.
-
-
-Append the dictionary with the image URL string and the hemisphere title to a list. This list will contain one dictionary for each hemisphere.
-
-
-
-# Example:
-hemisphere_image_urls = [
-    {"title": "Valles Marineris Hemisphere", "img_url": "..."},
-    {"title": "Cerberus Hemisphere", "img_url": "..."},
-    {"title": "Schiaparelli Hemisphere", "img_url": "..."},
-    {"title": "Syrtis Major Hemisphere", "img_url": "..."},
-]
-
-
+## Part2: MongoDB and Flask Application
+After scraping all the required information for the HTML page, a database was created in MongoDB to store the scraped data from the URLs above. This data will be updated constantly as we click 
 
 
 Part 2: MongoDB and Flask Application
