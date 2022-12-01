@@ -1,4 +1,4 @@
-# Please click 'Get Latest Mars Data' button on the html webpage to load the data (and Update too!) whilst assessing.
+# Please click 'Get Latest Mars Data' button on the html webpage to load the data first time (and Update too!)
 
 # Web-Scraping-Challenge
 
