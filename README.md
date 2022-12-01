@@ -1,6 +1,6 @@
 # Web-Scraping-Challenge
 
-For this project,  it was required to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask. 
+As a part of this project, a web application was required to be build that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask. 
 
 ## Part1: Web Scraping 
 
