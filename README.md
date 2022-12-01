@@ -28,7 +28,7 @@ Mars astrogeology site ("https://marshemispheres.com/") was visited to obtain hi
 
 
 ## Part2: MongoDB and Flask Application
-After scraping all the required information for the HTML page, a database was created in MongoDB to store the scraped data from the URLs above. This data will be updated constantly as we click 
+After scraping all the required information for the HTML page, a database was created in MongoDB (mission_to_mars) to store the scraped data from the URLs above. This data will be updated constantly as we click 
 
 
 Part 2: MongoDB and Flask Application
