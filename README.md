@@ -6,11 +6,11 @@ As a part of this project, a web application was required to be build that scrap
 
 ## Part1: Web Scraping 
 
-The HTML pages of the webpages that needed scraping were inspected to gather information write the necessary codes. Scraping was carried out using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
+The HTML pages of the websites that needed scraping were inspected and necessary information was gathered to write the codes. Scraping was carried out using Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter.
 
 ### (1) NASA Mars News Feed
 
-For the NASA Mars News feed "https://mars.nasa.gov/news/" was set up to be visited and the latest News Title and Paragraph Text was scraped. This information was assigned a variable name to refer to later. 
+For the NASA Mars News feed "https://mars.nasa.gov/news/" was set up to be visited and the latest News Title and Paragraph Text was scrapped. This information was assigned to a variable to refer to them later. 
 
 ### (2) Featured Space Image of Mars
 
@@ -19,7 +19,7 @@ The image URL for (the curren Featured) Mars Image was built before assigning it
 
 ### (3) Mars Facts
 
-In order to obtain the facts about Mars "https://galaxyfacts-mars.com/" was visited and the table containing facts about the red planet including diameter, mass, moon, temperature etc were scraped using pandas. The table was then converted to a HTML table string.
+In order to obtain the facts about Mars, "https://galaxyfacts-mars.com/" was visited and the table containing facts about the red planet including diameter, mass, moon, temperature etc were scraped using pandas. The table was then converted to a HTML table string and stored in the same dictionary as above.
 
 ### (4) Mars Hemispheres
 
@@ -28,7 +28,7 @@ Mars astrogeology site ("https://marshemispheres.com/") was visited to obtain hi
 
 ## Part2: MongoDB 
 
-After scraping all the required information for the HTML page, a database was created in MongoDB (mission_to_mars) to store the scraped data from the URLs above. This data will be updated as one clicks 'Get Latest Mars Data' on the html page.
+After scraping all the required information for the HTML page, a database in MongoDB (mission_to_mars) was created, to store the scraped data from the URLs above. This data will be updated as one clicks 'Get Latest Mars Data' button on the final html webpage.
 
 
 ## Part3: Flask Application
