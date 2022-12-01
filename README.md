@@ -1,6 +1,7 @@
 # Web-Scraping-Challenge
 
 As a part of this project, a web application was required to be build that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask. 
+![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Cropped%20Screenshot.png)
 
 ## Part1: Web Scraping 
 
