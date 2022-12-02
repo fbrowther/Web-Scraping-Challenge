@@ -1,5 +1,5 @@
 import pandas as pd
-# import requests
+import requests
 from splinter import Browser
 from bs4 import BeautifulSoup as bs
 from webdriver_manager.chrome import ChromeDriverManager
@@ -21,12 +21,11 @@ def scrape():
     browser.visit(news_url)
     html_1 = browser.html
     soup_1 = bs(html_1, "html.parser")
-    latest_news = soup_1.find_all("div", class_="content_title")[0]
-    latest_news_title = latest_news.text
+    latest_news = soup_1.find_all("div", class_="content_title")[1]
+    latest_news_title = latest_news.get_text()
     paragraph = soup_1.find_all("div", class_="article_teaser_body")[0]
     latest_news_paragraph = paragraph.text
-
-
+    
     # HEMISPHERE IMAGE SCRAPE
     hemi_url = "https://marshemispheres.com/"
     browser.visit(hemi_url)
