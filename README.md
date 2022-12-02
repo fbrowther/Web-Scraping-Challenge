@@ -8,7 +8,7 @@ As a part of this project, a web application was required to be build that scrap
 
 ![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Cropped%20Screenshot.png)
 
-## Technologies used in this project (in brief) -
+## Technologies used in this project-
     (1) Beautiful Soup & Splinter: To scrape data from various websites.
     (2) Flask: To build the web application.
     (3) HTML & Bootstrap (CSS): To design and style the webpage.
