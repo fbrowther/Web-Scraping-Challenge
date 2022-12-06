@@ -17,7 +17,7 @@ def scrape():
     featured_image_url = url + img[0]
 
     # TOP NEWS SCRAPE
-    news_url = "https://mars.nasa.gov/news/"
+    news_url = "https://redplanetscience.com"
     browser.visit(news_url)
     html_1 = browser.html
     soup_1 = bs(html_1, "html.parser")
@@ -62,7 +62,7 @@ def scrape():
     image4 = hemisphere_image_urls[3]["img_url"]
           
 
-    # COMPARISON TABLE SCRAPE
+    # MARS FACT TABLE SCRAPE
     table_url = "https://galaxyfacts-mars.com/"
     browser.visit(table_url)
     html_3 = browser.html
