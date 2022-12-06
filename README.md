@@ -21,7 +21,7 @@ The HTML pages of the websites that needed scraping were inspected and necessary
 
 ### (1) NASA Mars News Feed
 
-For the NASA Mars News feed "https://mars.nasa.gov/news/" was set up to be visited and the latest News Title and Paragraph Text was scrapped. This information was assigned to a variable to refer to them later. 
+For the NASA Mars News feed "https://redplanetscience.com" was set up to be visited and the latest News Title and Paragraph Text was scrapped. This information was assigned to a variable to refer to them later. 
 
 ### (2) Featured Space Image of Mars
 
