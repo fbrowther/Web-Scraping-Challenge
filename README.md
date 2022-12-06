@@ -1,7 +1,3 @@
-## Important Note: 
-Please click 'Get Latest Mars Data' button on the html webpage to load more recent data.
-
-
 # Web-Scraping-Challenge
 
 As a part of this project, a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask were to be build  
@@ -57,7 +53,8 @@ The screenshot of the updated HTML page has been included confirming its success
 ![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Flask%20images/Screenshot%202022-12-06%20at%2011.43.57.png)
 
 
-
+## Important Note: 
+Please click 'Get Latest Mars Data' button on the html webpage to update webpage with more recent data.
 
 
 
