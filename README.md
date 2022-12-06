@@ -38,7 +38,7 @@ After scraping all the required information for the HTML page, a database in Mon
 
 Update of the mongoDB collection with more recent data was confirmed everytime an new update was evident on the webpages by clicking 'Get Latest Mars Data' button followed by refreshing the mongoDB collection as shown -
 
-![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Flask%20images/Screenshot%202022-12-06%20at%2011.43.35.png)
+![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Flask%20images/MongoDB.png)
 
 
 ## Part3: Flask Application
