@@ -81,9 +81,7 @@ def scrape():
 
     browser.quit()
 
-
     # FINAL DICTIONARY FOR MONGO
-    
     final_mars_data = {
     "latest_title": latest_news_title,
     "latest_paragraph" : latest_news_paragraph,
