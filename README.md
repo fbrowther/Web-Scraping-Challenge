@@ -49,7 +49,7 @@ Jupyter notebook containing  all the codes were used to create a scrape_mars.py 
 Flask establishes connection with the MongoDB database (mission_to_mars) and passes the latest Mars data into an HTML template for displaying in the appropriate HTML elements. 
 
 
-### Part4: HTML Webpage displaying the most recent Mars Data (as of 01/12/2022)
+## Part4: HTML Webpage displaying the most recent Mars Data (as of 01/12/2022)
 The screenshot of the HTML page has been included confirming its successful deployement in the DevOps environment.
 
 ![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/deployed%20Flask%20app%201.png)
