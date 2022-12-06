@@ -55,7 +55,7 @@ Flask establishes connection with the MongoDB database (mission_to_mars) and pas
 ## Part4: HTML Webpage displaying the most recent Mars Data (as of 06/12/2022)
 The screenshot of the HTML page has been included confirming its successful deployement.
 
-![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/deployed%20Flask%20app%201.png)
+![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Screenshot%202022-12-06%20at%2011.43.57.png)
 
 
 
