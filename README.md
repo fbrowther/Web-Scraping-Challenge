@@ -5,7 +5,7 @@ Please click 'Get Latest Mars Data' button on the html webpage to load more rece
 # Web-Scraping-Challenge
 
 As a part of this project, a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page using Flask were to be build  
-![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/cropped%20recent%20flask%20webpage%20screenshot.png)
+![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Flask%20images/cropped%20flask%20image%20for%20readme.png)
 
 ## Technologies used in this project-
     (1) Beautiful Soup & Splinter: To scrape data from various websites.
