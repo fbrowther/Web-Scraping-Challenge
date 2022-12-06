@@ -33,7 +33,9 @@ Mars astrogeology site ("https://marshemispheres.com/") was visited to obtain hi
 
 ## Part2: MongoDB
 
-After scraping all the required information for the HTML page, a database in MongoDB (mission_to_mars) was created, to store the scraped data from the URLs above. This data will be updated as one clicks 'Get Latest Mars Data' button on the final html webpage. Update of the mongoDB collection was confirmed with updated information everytime an update was evident on the webpage by clicking 'Get Latest Mars Data' button as follows-
+After scraping all the required information for the HTML page, a database in MongoDB (mission_to_mars) was created, to store the scraped data from the URLs above. This data will be updated as one clicks 'Get Latest Mars Data' button on the final html webpage. 
+
+Update of the mongoDB collection was confirmed with updated information everytime an new update was evident on the webpages by clicking 'Get Latest Mars Data' button followed by refreshing the mongoDB collection as shown -
 
 ![alt text](https://github.com/fbrowther/Web-Scraping-Challenge/blob/main/Flask%20images/Screenshot%202022-12-06%20at%2011.43.35.png)
 
