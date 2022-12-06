@@ -54,7 +54,7 @@ The screenshot of the updated HTML page has been included confirming its success
 
 
 ## Important Note: 
-Please click 'Get Latest Mars Data' button on the html webpage to update webpage with more recent data.
+Please click 'Get Latest Mars Data' button on the html webpage to update webpage with recent data.
 
 
 
