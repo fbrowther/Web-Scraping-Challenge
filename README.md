@@ -1,5 +1,5 @@
 ## Important Note: 
-Please click 'Get Latest Mars Data' button on the html webpage to load the data first time (and Update too!)
+Please click 'Get Latest Mars Data' button on the html webpage to load more recent data.
 
 
 # Web-Scraping-Challenge
